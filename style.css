@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+strong{
+    color: #22D4FD;
+}
+
+header h1{
+   padding: 1em;
+   margin: 0 10%;
+   margin-bottom: 10px;
+   text-align: center;
+   background-color: rgb(197, 133, 133);
+}
+
+section{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    width: 45%;
+}
+
+.imagem{
+    width: 45%;
+}
+
+img{
+    width: 80%;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: rgb(94, 109, 96);
+}
+
+a:visited{
+    color: lightblue;
+}
